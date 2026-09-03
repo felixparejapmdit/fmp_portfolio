@@ -1543,7 +1543,12 @@
 
 
       #work {
-        break-before: page;
+        break-before: auto;
+      }
+
+      .section-head {
+        break-after: avoid;
+        break-inside: avoid;
       }
 
       .projects-grid {
@@ -1582,7 +1587,7 @@
       }
 
       #earlier-work {
-        break-before: page;
+        break-before: auto;
       }
 
       .legacy-group+.legacy-group {
@@ -1639,6 +1644,7 @@
       .capability {
         min-height: 0;
         padding: 8px;
+        break-inside: avoid;
       }
 
       .capability h3 {
